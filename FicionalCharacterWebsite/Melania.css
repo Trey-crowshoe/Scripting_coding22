@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kalam&display=swap');
+
+h1,h2{font-family: 'Kalam', cursive;}
+html{font-family: 'Comfortaa', cursive;}
+
+header{
+	background-color:goldenrod;
+	text-align: center;
+	padding:50px 0px 30px 0px;
+	image-orientation:center;
+
+}
+
+
+
+section img{float:center;
+	margin:30px 25px;
+	max-width:1200px;
+	
+	
+}
+section {background-color:darkgoldenrod;
+	text-align:center;
+	padding: 50px 50px;
+	margin: 0 auto;
+	overflow:hidden;
+	
+	
+	
+}
+ul{list-style-type: none;}
+	/*pulled form w3schools*/
+
+	a:visited{color:blue;}
+	a:visited{color:blue;}
+	a:hover{color:whitesmoke;}
+	a:link{color:Black;}
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  overflow: hidden;
+  /*background of whole bar*/
+  background-color: #6A1011;
+	
+}
+
+nav li {
+	/*put the list items side by each*/
+  float: left;
+}
+
+
+nav li a:link {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /*add duration for a fade*/
+  transition-duration:.6s;
+	
+}
+
+
+nav li a:hover {
+color:black;
+  background-color: #420C0D;
+}
+
+
+
+
+.alternate{background-color:goldenrod;}
+
+    footer{ background-color: goldenrod;
+	text-align:center;
+	padding:50px;
+}
+
+
+/*make a class that adds the stickiness to the nav bar. why doesnt this work*/
+
+
+.sticky-top{
+  position: webkit-sticky;   /* Safari */
+  position:fixed;
+  
+  width:100%;
+  top: 0;
+}
+
+
