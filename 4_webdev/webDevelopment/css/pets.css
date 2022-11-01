@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/*if you want a different look in each header on the different pages, use an ID tag instead of jsut "header"*/
+#homeMasthead
+{ background-image: url("../images/backgrounds/Shibainu.jpeg");
+	background-size: cover;
+	background-position: center;
+
+	height: 80vh;
+}
+#sericeMasthead{
+	background-size: cover;
+	background-position: center;
+	background-image: url("../images/backgrounds/ShibaInu2.jpeg")
+	
+}
+/*set font size mobile first*/
+/*overriding a BS4 class with your own style*/
+
+
+
+/*class to define the height of any element it is added too*/
+.height80{
+	height: 80vh;
+	
+}
+h2{
+	color: #0E1349;
+}
+
+.bg-dark{
+	background-color: cadetblue !important;
+}
+
+footer{
+	background-color:#0E1349;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color:#84C9DE;
+	
+	
+	
+}
+
+a:link, a:visited{
+	
+	color:#84C9DE;
+	
+}
+a:hover{color: #FFFFFF}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	
+	.display-1{
+	font-size: 60pt;
+}
+}
+
+
+/* Medium devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#homeMasthead{	
+	background-image: url("../images/backgrounds/ShibaInu2.jpeg")
+		
+	}
+	
+	.display-1{
+	font-size: 80pt;
+}
+} /*closes the medium size*/
+
+
+
+
+
+
+
